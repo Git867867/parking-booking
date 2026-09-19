@@ -24,6 +24,7 @@ total_price_float = booking_days * daily_rate
 total_price_int = int(total_price_float)  # преобразование типов: float -> int
 
 # ----- Ветвления (if / elif / else) -----
+#breakpoint()
 if not is_spot_available:
     print("[ОШИБКА] Выбранное парковочное место уже занято.")
 elif booking_days <= 0:
